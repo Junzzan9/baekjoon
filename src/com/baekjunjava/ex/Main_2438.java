@@ -2,7 +2,7 @@ package com.baekjunjava.ex;
 
 import java.util.*;
 
-public class quiz1 {
+public class Main_2438 {
 
 	public static void main(String args[]) {
 		
