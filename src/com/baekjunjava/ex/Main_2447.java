@@ -9,19 +9,28 @@ public class Main_2447 {
 		int n=sc.nextInt();
 		sc.close();
 		
+		if(n/3!=1) {
+			for(int i=0;i<n/3;i++) {
+				Star(n/3);
+			}
+		}
+
+	}
+	
+	static void Star(int n) {
 		for(int i=0;i<n;i++) {
 			for(int j=0;j<n;j++) {
 				if(i>n/3-1&&i<2*n/3&&j>n/3-1&&j<2*n/3) {
-						System.out.print(" ");					
+					System.out.print(" ");
 				}
 				else {
 					System.out.print("*");
 				}
-				
 			}
-			System.out.println();
+			//System.out.println();
 		}
-
 	}
+	
+	
 
 }
